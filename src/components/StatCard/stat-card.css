@@ -1,0 +1,29 @@
+.stat-card{
+  background-color: var(--neutral-100);
+  border:1px solid #e6e0ef;
+  background-image:
+    linear-gradient(to right, var(--neutral-100) 40%, rgba(243,239,248,0)),
+    url("../../assets/images/statcard-bg.jpg");
+
+  background-repeat: no-repeat;
+  background-position: left center, right center;
+  background-size: 100% 100%, 80px auto;
+  width: 100%;
+  min-height: 100px; 
+
+}
+.stat-value{
+  color: var(--orange-500);
+  font-weight: 800;
+  font-size: 1.6rem;
+}
+.stat-label{
+  color: var(--neutral-700);
+}
+
+@media (max-width: 576px) {
+  .stat-card {
+    background-image: none;
+    padding-right: 1rem;
+  }
+}

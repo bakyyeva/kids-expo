@@ -1,0 +1,25 @@
+.slider-section .slider-img {
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.slider-section .carousel-caption {
+  bottom: 2rem;
+}
+
+.report-section img { width:100%; height:auto }
+.stat-card .stat-value { font-size: 1.8rem }
+
+.report-section { overflow: visible }
+
+
+@media (max-width: 991.98px) {
+  .slider-section .slider-img { max-height: 420px }
+  .slider-section .carousel-caption { bottom: 1rem }
+}
+
+@media (max-width: 575.98px) {
+  .slider-section .slider-img { max-height: 360px }
+}
+
+

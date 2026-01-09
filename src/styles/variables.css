@@ -1,0 +1,62 @@
+:root {
+  /* 🟣 Purple (Primary Brand) */
+  --purple-100: #E0D2EC;
+  --purple-200: #CAB4E0;
+  --purple-300: #B596D3;
+  --purple-400: #A078C7;
+  --purple-500: #8755B8;
+  --purple-600: #7545A4;
+  --purple-700: #5F3886;
+  --purple-800: #4A2B68;
+  --purple-900: #341F49;
+  --purple-950: #1F122B;
+
+  /* 🟠 Orange (Accent / CTA) */
+  --orange-100: #FAD4C4;
+  --orange-200: #F7B69D;
+  --orange-300: #F49975;
+  --orange-400: #F17C4D;
+  --orange-500: #ED5417;
+  --orange-600: #D84911;
+  --orange-700: #B03C0E;
+  --orange-800: #882E0B;
+  --orange-900: #612107;
+  --orange-950: #391304;
+
+  /* ⚪ Neutral (Text & Background) */
+  --neutral-0: #ffffff;
+  --neutral-100: #DFDDE2;
+  --neutral-200: #CAC6CE;
+  --neutral-300: #B5AFBA;
+  --neutral-400: #9F97A7;
+  --neutral-500: #877D90;
+  --neutral-600: #746B7E;
+  --neutral-700: #5F5766;
+  --neutral-800: #49444F;
+  --neutral-900: #49444F;
+  --neutral-950: #1F1C21;
+
+  /* 🔴 Red (Error / Warning) */
+  --red-100: #FAC5C5;
+  --red-200: #F69E9E;
+  --red-300: #F27777;
+  --red-400: #EF4F4F;
+  --red-500: #EB2626;
+  --red-600: #D51414;
+  --red-700: #AE1010;
+  --red-800: #860C0C;
+  --red-900: #5F0909;
+  --red-950: #380505;
+
+  /* 🅰️ Typography */
+  --font-primary: 'Roboto', sans-serif;
+
+  --color-primary: var(--purple-500);
+  --color-accent: var(--orange-500);
+  --color-text: var(--neutral-700);
+  --color-background: var(--neutral-0);
+  --color-error: var(--red-500);
+
+  /* 📐 Layout */
+  /* --container-width: 1200px; */
+}

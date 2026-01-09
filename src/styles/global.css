@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  color: var(--neutral-700);
+  background: var(--neutral-0);
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--neutral-950);
+  font-weight: 700;
+}
+
+p {
+  color: var(--neutral-700);
+  line-height: 1.6;
+  font-weight: 400;
+}
+

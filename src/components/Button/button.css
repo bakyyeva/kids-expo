@@ -1,0 +1,98 @@
+.btn.btn-purple {
+	background-color: var(--purple-500);
+	color: var(--neutral-0);
+	border: none;
+    border-radius: 0;
+	padding: 16px;
+	font-weight: 600;
+	line-height: 1.2;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+	transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
+	will-change: background-color, box-shadow, transform;
+}
+
+.btn.btn-purple:hover {
+	background-color: var(--purple-700);
+	color: var(--neutral-0);
+	box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+    border-radius: 0;
+}
+
+.btn.btn-purple:active {
+	background-color: var(--purple-800);
+	transform: translateY(1px);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    border-radius: 0;
+}
+
+.btn.btn-purple:focus-visible {
+	outline: 3px solid rgba(135, 85, 184, 0.35);
+	outline-offset: 2px;
+    border-radius: 0;
+}
+
+.btn.btn-purple:disabled,
+.btn.btn-purple[disabled] {
+	background-color: var(--purple-300);
+	color: var(--neutral-0);
+	box-shadow: none;
+	cursor: not-allowed;
+	opacity: 0.85;
+    border-radius: 0;
+}
+
+.btn.btn-purple.btn-sm {
+	padding: 0.45rem 1.1rem;
+	border-radius: 7px;
+	font-weight: 600;
+    border-radius: 0px;
+}
+
+.btn.btn-purple.btn-lg {
+	padding: 0.75rem 2rem;
+	border-radius: 10px;
+	font-weight: 600;
+    border-radius: 0px;
+}
+
+.btn.btn-purple.btn-block {
+	width: 100%;
+}
+
+.btn.btn-purple-outline {
+	background-color: transparent;
+	color: var(--purple-700);
+	border: 2px solid var(--purple-600);
+	border-radius: 0;
+	padding: 16px;
+	font-weight: 600;
+	transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.btn.btn-purple-outline-border0 {
+	background-color: transparent;
+	color: var(--neutral-0);
+	border-radius: 0;
+	padding: 16px;
+	font-weight: 600;
+	transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.btn.btn-purple-outline:hover {
+	background-color: var(--purple-600);
+	color: #fff;
+	border-color: var(--purple-600);
+    border-radius: 0;
+}
+
+.btn.btn-purple-outline:active {
+	background-color: var(--purple-700);
+	border-color: var(--purple-700);
+    border-radius: 0;
+}
+
+.btn.btn-purple-outline:focus-visible {
+	outline: 3px solid rgba(135, 85, 184, 0.35);
+	outline-offset: 2px;
+    border-radius: 0;
+}
