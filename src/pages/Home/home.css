@@ -12,6 +12,9 @@
 
 .report-section { overflow: visible }
 
+.time-section { background-color: var(--neutral-100) }
+.time-section .mail-icon{ font-size: 2rem; color: var(--purple-800) }
+
 
 @media (max-width: 991.98px) {
   .slider-section .slider-img { max-height: 420px }

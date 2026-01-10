@@ -1,0 +1,44 @@
+.time-card {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.time-card:hover {
+  transform: translateY(-4px);
+}
+
+.time-card-header {
+  background: var(--purple-800);
+  color: var(--neutral-0);
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.time-card-body {
+  background: var(--neutral-0);
+  padding: 8px 16px;
+}
+
+.time-card-date {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--neutral-950);
+}
+
+.time-card-email {
+  text-align: center;
+}
+
+.email-link {
+  color: var(--neutral-950);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}

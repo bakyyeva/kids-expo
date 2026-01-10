@@ -1,0 +1,72 @@
+.theme-card {
+  position: relative;
+  background: var(--neutral-100);
+  border: none;
+  border-radius: 0px;
+  padding: 20px 20px 18px 20px;
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.theme-card::after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  right: 0px;
+  height: 8px;
+  bottom: -8px;
+  background: var(--purple-800);
+  border-radius: 0px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.theme-card::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  bottom: 0px;
+  width: 8px;
+  right: -8px;
+  background: var(--purple-800);
+  border-radius: 0px;
+}
+
+.theme-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.theme-card-icon {
+  /* position: absolute;
+  top: 0px;
+  left: 32px; */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 16px;
+}
+
+.theme-card-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--neutral-950);
+  margin-bottom: 6px;
+}
+
+.theme-card-description {
+  font-size: 0.85rem;
+  color: var(--neutral-700);
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .theme-card {
+    padding: 16px;
+  }
+  .theme-card-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 2rem;
+  }
+}

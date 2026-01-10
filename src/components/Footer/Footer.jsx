@@ -55,7 +55,7 @@ export default function Footer() {
 					</div>
 				</div>
 			</div>
-
+{/* TODO:: hr col-8 */}
 			<div className="footer-bottom border-top">
 				<div className="container py-3 text-center small text-muted">
 					©{year} Все права защищены
