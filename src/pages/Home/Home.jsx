@@ -145,9 +145,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-            {/* TODO:: Position card */}
+
       <section className="theme-section py-4 py-lg-5 bg-light">
-        <div className="container col-8">
+        <div className="container col-8 mb-4">
           <h2 className="text-center mb-5 fw-bold">Тематические направления выставки</h2>
           <div className="row g-4">
             {themeData.map((theme, index) => (
@@ -174,7 +174,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-            {/* TODO:: carousel */}
+  
       <section className="news-section py-4 py-lg-5 bg-light">
         <div className="container col-8">
           <div className="d-flex flex-column flex-md-row justify-content-md-between align-items-center mb-4">

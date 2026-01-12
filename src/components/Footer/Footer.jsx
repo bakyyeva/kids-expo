@@ -35,7 +35,7 @@ export default function Footer() {
 			</div>
 
 			<div className="footer-main">
-				<div className="container col-8 py-3 py-md-4 d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+				<div className="container border-bottom col-8 py-3 py-md-4 d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
 					<div className="footer-brand d-flex align-items-center gap-2">
 						<img src={Logo} alt="Kids Expo Turkmenistan" className="footer-logo" />
 					</div>
@@ -55,8 +55,8 @@ export default function Footer() {
 					</div>
 				</div>
 			</div>
-{/* TODO:: hr col-8 */}
-			<div className="footer-bottom border-top">
+
+			<div className="footer-bottom">
 				<div className="container py-3 text-center small text-muted">
 					©{year} Все права защищены
 				</div>

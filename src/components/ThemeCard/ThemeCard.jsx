@@ -6,7 +6,7 @@ export default function ThemeCard({ icon, title }) {
       <div className="theme-card-icon mb-5">
         <img src={icon} />
       </div>
-      <h5 className="theme-card-title">{title}</h5>
+      <h5 className="theme-card-title mb-4">{title}</h5>
     </div>
   )
 }

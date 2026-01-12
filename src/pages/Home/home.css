@@ -7,22 +7,39 @@
   bottom: 2rem;
 }
 
-.report-section img { width:100%; height:auto }
-.stat-card .stat-value { font-size: 1.8rem }
+.report-section img { 
+  width:100%; 
+  height:auto 
+}
+.stat-card .stat-value { 
+  font-size: 1.8rem 
+}
 
-.report-section { overflow: visible }
+.report-section { 
+  overflow: visible 
+}
 
-.time-section { background-color: var(--neutral-100) }
-.time-section .mail-icon{ font-size: 2rem; color: var(--purple-800) }
-
+.time-section { 
+  background-color: var(--neutral-100) 
+}
+.time-section .mail-icon{ 
+  font-size: 2rem; 
+  color: var(--purple-800) 
+}
 
 @media (max-width: 991.98px) {
-  .slider-section .slider-img { max-height: 420px }
-  .slider-section .carousel-caption { bottom: 1rem }
+  .slider-section .slider-img { 
+    max-height: 420px 
+  }
+  .slider-section .carousel-caption { 
+    bottom: 1rem 
+  }
 }
 
 @media (max-width: 575.98px) {
-  .slider-section .slider-img { max-height: 360px }
+  .slider-section .slider-img { 
+    max-height: 360px 
+  }
 }
 
 

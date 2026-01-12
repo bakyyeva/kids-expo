@@ -1,4 +1,18 @@
-.news-card { background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
-.news-card-media img { width:100%; display:block; }
-.news-card-body { padding:12px 14px; }
-.news-card-title { font-weight:600; color:var(--neutral-950); line-height:1.4; }
+.news-card { 
+    background:#fff; 
+    border-radius:8px; 
+    overflow:hidden; 
+    box-shadow:0 2px 8px rgba(0,0,0,0.08); 
+}
+.news-card-media img { 
+    width:100%; 
+    display:block; 
+}
+.news-card-body { 
+    padding:12px 14px; 
+}
+.news-card-title { 
+    font-weight:600; 
+    color:var(--neutral-950); 
+    line-height:1.4; 
+}
