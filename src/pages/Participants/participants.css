@@ -1,0 +1,33 @@
+.participants-page{ background:#f7f5fa; }
+
+.phase-card {
+  border-radius: 0px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.phase-header {
+  font-size: 18px;
+}
+
+.phase-header.purple {
+  background: linear-gradient(180deg, #8755B8 0%, #7545A4 100%);
+}
+
+.phase-header.orange {
+  background: linear-gradient(180deg, #F17C4D 0%, #ED5417 100%);
+}
+
+.phase-body {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.info-box {
+  background: var( --neutral-100);
+}
+
+.text-purple {
+  color: var(--purple-600);
+}

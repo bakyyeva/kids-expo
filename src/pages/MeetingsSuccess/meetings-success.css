@@ -1,0 +1,11 @@
+.meetings-success-page { background: #F6FBF2; }
+
+.meetings-success-page .btn {
+  background: transparent;
+  border-radius: 0px;
+}
+.meeting-text {
+    color: #181D18;
+    font-weight: 400;
+    font-size: 28px;
+}

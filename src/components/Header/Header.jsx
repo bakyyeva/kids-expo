@@ -52,19 +52,19 @@ export default function Header() {
 					>
 						<span className="navbar-toggler-icon"></span>
 					</button>
-
+{/* TODO:: link hover color */}
 					<div className={`collapse navbar-collapse ${mobileOpen ? 'show' : ''}`} id="mainNav">
 						<ul className="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-3">
 							<li className="nav-item">
 								<Dropdown title="Выставка">
 									<div className="dropdown-content">
 										<div className="dropdown-section">
-											<Link to="#" className="dropdown-item">О выставке</Link>
-											<Link to="#" className="dropdown-item">Место проведения</Link>
-											<Link to="#" className="dropdown-item">Информация поддержка</Link>
-											<Link to="#" className="dropdown-item">Медиа</Link>
-											<Link to="#" className="dropdown-item">Новости</Link>
-											<Link to="#" className="dropdown-item">FAQ</Link>
+											<Link to="/about-expo" className="dropdown-item">О выставке</Link>
+											<Link to="/theme" className="dropdown-item">Тематика</Link>
+											<Link to="/photo-report" className="dropdown-item">Фоторепортаж</Link>
+											<Link to="/video-report" className="dropdown-item">Видеорепортаж</Link>
+											<Link to="/news" className="dropdown-item">Новости</Link>
+											<Link to="/faq" className="dropdown-item">Вопросы-ответы</Link>
 										</div>
 									</div>
 								</Dropdown>
@@ -74,11 +74,11 @@ export default function Header() {
 								<Dropdown title="Участникам">
 									<div className="dropdown-content">
 										<div className="dropdown-section">
-											<Link to="#" className="dropdown-item">Информация для участников</Link>
-											<Link to="#" className="dropdown-item">Преимущества участия</Link>
-											<Link to="#" className="dropdown-item">Зачем посещать</Link>
-											<Link to="#" className="dropdown-item">Онлайн-заявка для участников</Link>
-											<Link to="#" className="dropdown-item">Документы</Link>
+											<Link to="/participants" className="dropdown-item">Информация для участников</Link>
+											<Link to="/benefits" className="dropdown-item">Преимущества участия</Link>
+											<Link to="/documents" className="dropdown-item">Документы</Link>
+											<Link to="/meetings-success" className="dropdown-item">B2B | B2G встречи</Link>
+											<Link to="/participants-list" className="dropdown-item">Список участников</Link>
 											<Link to="#" className="dropdown-item">Услуги для экспонентов</Link>
 											<Link to="#" className="dropdown-item">Тематика</Link>
 											<Link to="#" className="dropdown-item">Список участников</Link>

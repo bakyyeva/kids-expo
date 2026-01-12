@@ -1,0 +1,30 @@
+.documents-page { background: #f7f5fa; }
+
+.doc-card {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  min-height: 160px;
+  padding: 24px;
+  border: 2px solid transparent;
+  flex-basis: calc(50% - 0.75rem);
+}
+
+@media (max-width: 767px) {
+  .doc-card { flex-basis: 100%; }
+}
+
+.doc-card:hover {
+  border-color: var(--purple-600);
+}
+
+.doc-icon {
+  color: var(--purple-600);
+  font-size: 56px;
+  line-height: 1;
+}
+
+.doc-title {
+  color: #343038;
+  margin-top: 10px;
+}

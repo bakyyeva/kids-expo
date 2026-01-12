@@ -1,0 +1,31 @@
+.participants-list-page { background: #f7f5fa; }
+
+.years-tabs .year {
+  cursor: pointer;
+}
+
+.years-tabs .year.active {
+  color: var(--neutral-950);
+}
+
+.years-tabs .year.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 3px;
+  background: var(--purple-600);
+  border-radius: 0px;
+}
+
+.table-wrap { overflow: hidden; background: var(--neutral-0); }
+.table-row:last-child { border-bottom: none; }
+.flag-icon { width: 20px; height: 20px; }
+
+@media (max-width: 767px) {
+  .table-row { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .table-row .col-5, .table-row .col-4, .table-row .col-3 { width: 100%; }
+}
+
+

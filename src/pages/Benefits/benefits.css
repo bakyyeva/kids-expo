@@ -1,0 +1,18 @@
+.benefits-page { background: #f7f5fa; }
+
+.benefit-card {
+  min-height: 120px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #8755B8 0%, #7545A4 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  flex-basis: calc(50% - 0.75rem);
+}
+
+@media (max-width: 767px) {
+  .benefit-card { flex-basis: 100%; }
+}
+
+.benefit-icon {
+  color: #fff;
+  font-size: 28px;
+}

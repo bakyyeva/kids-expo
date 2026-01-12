@@ -1,0 +1,27 @@
+.faq-page { background:#f7f5fa; }
+
+.faq-accordion { border-top: 1px solid #eaeaea; }
+.faq-item { border-bottom: 1px solid #eaeaea; }
+.faq-toggle { width:100%; background:transparent; border:none; padding:14px 0; display:flex; align-items:center; justify-content:space-between; cursor:pointer; font-weight:600; color:var(--neutral-950); }
+.faq-toggle .question-text { text-align:left; }
+.faq-toggle .icon { font-size:20px; color:var(--neutral-500); transition:transform .2s ease, color .2s ease; }
+.faq-toggle[aria-expanded="true"] .icon { transform:rotate(180deg); color:var(--neutral-700); }
+.faq-body { padding:0 0 16px 0; color:var(--neutral-700); font-size:0.95rem; 
+  padding: 8px 4px;
+  position: relative;
+}
+
+.years-tabs .year.active {
+  color: var(--neutral-950);
+}
+
+.years-tabs .year.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 3px;
+  background: var(--purple-600);
+  border-radius: 0px;
+}

@@ -1,0 +1,28 @@
+.photo-report-page {
+  background: #f7f5fa;
+}
+
+.years-tabs .year {
+  padding: 8px 4px;
+  position: relative;
+}
+
+.years-tabs .year.active {
+  color: var(--neutral-950);
+}
+
+.years-tabs .year.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 3px;
+  background: var(--purple-600);
+  border-radius: 0px;
+}
+
+.main-photo {
+  width: 100%;
+  max-width: 600px;
+}
