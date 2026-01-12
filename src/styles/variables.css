@@ -1,5 +1,5 @@
 :root {
-  /* 🟣 Purple (Primary Brand) */
+  /* Purple */
   --purple-100: #E0D2EC;
   --purple-200: #CAB4E0;
   --purple-300: #B596D3;
@@ -11,7 +11,7 @@
   --purple-900: #341F49;
   --purple-950: #1F122B;
 
-  /* 🟠 Orange (Accent / CTA) */
+  /* Orange */
   --orange-100: #FAD4C4;
   --orange-200: #F7B69D;
   --orange-300: #F49975;
@@ -23,7 +23,7 @@
   --orange-900: #612107;
   --orange-950: #391304;
 
-  /* ⚪ Neutral (Text & Background) */
+  /*  Neutral */
   --neutral-0: #ffffff;
   --neutral-100: #DFDDE2;
   --neutral-200: #CAC6CE;
@@ -36,7 +36,7 @@
   --neutral-900: #49444F;
   --neutral-950: #1F1C21;
 
-  /* 🔴 Red (Error / Warning) */
+  /* Red */
   --red-100: #FAC5C5;
   --red-200: #F69E9E;
   --red-300: #F27777;
@@ -48,7 +48,6 @@
   --red-900: #5F0909;
   --red-950: #380505;
 
-  /* 🅰️ Typography */
   --font-primary: 'Roboto', sans-serif;
 
   --color-primary: var(--purple-500);
@@ -57,6 +56,4 @@
   --color-background: var(--neutral-0);
   --color-error: var(--red-500);
 
-  /* 📐 Layout */
-  /* --container-width: 1200px; */
 }

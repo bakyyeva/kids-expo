@@ -13,6 +13,9 @@ import Benefits from './pages/Benefits'
 import Documents from './pages/Documents'
 import MeetingsSuccess from './pages/MeetingsSuccess'
 import ParticipantsList from './pages/ParticipantsList'
+import ParticipantForm from './pages/ParticipantForm'
+import StandBooking from './pages/StandBooking'
+import FormTemplate from './pages/FormTemplate'
 
 function AppRoutes() {
   return (
@@ -123,6 +126,33 @@ function AppRoutes() {
         element={
           <MainLayout>
             <ParticipantsList />
+          </MainLayout>
+        }
+      />
+
+      <Route
+        path="/participant-form"
+        element={
+          <MainLayout>
+            <ParticipantForm />
+          </MainLayout>
+        }
+      />
+
+      <Route
+        path="/stand-booking"
+        element={
+          <MainLayout>
+            <StandBooking />
+          </MainLayout>
+        }
+      />
+
+      <Route
+        path="/form-template"
+        element={
+          <MainLayout>
+            <FormTemplate />
           </MainLayout>
         }
       />

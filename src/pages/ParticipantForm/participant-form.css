@@ -1,0 +1,11 @@
+.participant-form-page {
+    background: #f7f5fa;
+}
+
+.form-actions .btn {
+  min-width: 160px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+}
+

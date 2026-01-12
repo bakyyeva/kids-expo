@@ -79,9 +79,9 @@ export default function Header() {
 											<Link to="/documents" className="dropdown-item">Документы</Link>
 											<Link to="/meetings-success" className="dropdown-item">B2B | B2G встречи</Link>
 											<Link to="/participants-list" className="dropdown-item">Список участников</Link>
-											<Link to="#" className="dropdown-item">Услуги для экспонентов</Link>
-											<Link to="#" className="dropdown-item">Тематика</Link>
-											<Link to="#" className="dropdown-item">Список участников</Link>
+											<Link to="/participant-form" className="dropdown-item">Онлайн-заявка для участников</Link>
+											<Link to="/stand-booking" className="dropdown-item">Забронировать стенд</Link>
+											<Link to="/form-template" className="dropdown-item">Форма шаблон</Link>
 										</div>
 									</div>
 								</Dropdown>
